@@ -1,8 +1,10 @@
 node {
    stage 'dev'
-   		echo 'Hello World 1'
+   		echo 'Hello World dev'
+   stage 'test'
+   		echo 'Hello World test'
    stage 'qa'
-   		echo 'Hello World 2'
+   		echo 'Hello World qa'
    stage 'prod'
-   		echo 'Hello World 3'
+   		echo 'Hello World prod'
 }
