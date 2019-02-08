@@ -3,8 +3,10 @@ node {
         echo "building"
     }
 }
-stage('Get build approval'){
-    input "build a project?"
+node {
+    stage('verify'){
+        echo "verify build"
+    }
 }
 node {
     stage('test'){
