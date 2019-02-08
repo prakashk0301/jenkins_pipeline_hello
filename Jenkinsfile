@@ -16,3 +16,8 @@ node {
         echo "deploying"
     }
 }
+node {
+    stage('Post Deploy Testing'){
+        echo "Finle check"
+    }
+}
