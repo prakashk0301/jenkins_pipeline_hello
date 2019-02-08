@@ -1,11 +1,11 @@
 node {
     stage('build'){
-        echo "building"
+        echo "abc building"
     }
 }
 node {
     stage('test'){
-        echo "testing"
+        echo "xyz testing"
     }
 }
 stage('Get approval'){
