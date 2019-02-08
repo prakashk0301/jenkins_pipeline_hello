@@ -16,3 +16,8 @@ node {
         echo "deploying"
     }
 }
+node {
+    stage('test job'){
+        echo "test stage"
+    }
+}
