@@ -3,10 +3,8 @@ node {
         echo "building"
     }
 }
-node {
-    stage('Get build approval'){
-        input "build a project?"
-    }
+stage('Get build approval'){
+    input "build a project?"
 }
 node {
     stage('test'){
