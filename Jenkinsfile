@@ -1,18 +1,18 @@
 node {
     stage('build'){
-        echo "building"
+        echo "shounak building"
     }
 }
 node {
     stage('test'){
-        echo "testing"
+        echo "sj testing"
     }
 }
 stage('Get approval'){
-    input "Deploy to qa?"
+    input "sj Deploy to qa?"
 }
 node {
     stage('deploy to qa'){
-        echo "deploying"
+        echo "sj deploying"
     }
 }
