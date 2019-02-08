@@ -4,6 +4,11 @@ node {
     }
 }
 node {
+    stage('again build'){
+        echo "building"
+    }
+}
+node {
     stage('test'){
         echo "testing"
     }
